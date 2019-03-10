@@ -1,0 +1,184 @@
+body {
+    background-image: url("../images/white-waves.png");
+}
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    padding: 20px;
+}
+header {
+    margin: 0 auto;
+    background-color: #fff;
+    height: 99px;
+    margin-bottom: 40px;
+}
+.header-title {
+    font-size: 32px;
+    float: left;
+    margin-top: 26px;
+
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+h2 {
+    font-size: 25px;
+    color: #4aaaa5
+}
+:any-link {
+    color: grey; 
+    text-decoration: none; 
+    float: left;
+    font-size: 20px;
+
+}
+    
+#photo {
+    float: left; 
+    margin: 10px;
+}
+#bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    text-align: left;
+}
+.footer {
+    background-color: #666666; 
+    color: #cccccc;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    border-top: solid 8px #4aaaa5;
+    padding: 15px 0px 0px 0px;
+
+}
+.form label {
+    display: block; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input[type="text"]  {
+    padding: 8px;
+    width: 100%;
+}
+.form textarea {
+    padding: 8px;
+    width: 100%;
+}
+.form input[type="submit"] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+    padding-bottom: 15px;
+}
+.email {
+    padding-bottom: 15px;
+}
+.message {
+    padding-bottom: 15px;
+}
+p {
+    line-height: 150%
+}
+.form {
+    padding: 0px 20px 20px 0px;
+}
+nav {
+    float: right;
+    margin-top: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+nav a {
+    display: inline-block;
+}
+.portfolio {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+.headers {
+    width: 960px;
+    margin: 0 auto;
+}
+#portfolio {
+    padding-left: 10px;
+    padding-top: 25px;
+    position: relative;
+}
+#contact {
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+#about {
+    padding-top: 25px;
+
+}
+.overlay {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 12.5px 0px 0px 0px;
+    left: 20px;
+    bottom: 8%;
+
+}
+.image {
+   position: relative;
+}
+.picture-container {
+    position: relative;
+    float: left;
+}
+
+@media screen and (max-width: 980px) {
+    .container { 
+        width: 800px;}
+    .header {
+        width: 800px;}
+    }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container {
+        width: 400px;
+    }
+    .header-title {
+        width:640px;
+        padding-left: 213px;
+        margin-top: 0px;
+    }
+    .headers {
+        width: 640px;
+    }
+    nav a{ 
+        margin-top: 0px;
+        float: left;
+    }
+}
