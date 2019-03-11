@@ -164,6 +164,9 @@ nav a {
         width: 500px;
         align-content: center;
     }
+    .nav {
+        margin-right: 200px;
+    }
 }
 @media screen and (max-width: 640px) {
     .container {
@@ -177,8 +180,15 @@ nav a {
     .headers {
         width: 640px;
     }
-    nav a{ 
+    .nav {
+        margin-right: 0px;
+        padding-left: 32%;
         margin-top: 0px;
-        float: left;
+        background-color: #ffffff;
+        width: 100%;
+        text-align: center;
     }
+   .header {
+       padding-bottom: 200px;
+   }
 }
